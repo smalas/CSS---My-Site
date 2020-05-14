@@ -70,12 +70,12 @@ hr {
 
 .section{
   margin: auto;
-  width: 65%;
+  width: 80%;
 }
 
 .section-row{
   text-align: left;
-  margin: auto;
+  margin: 0 auto 30px auto ;
 }
 
 .top-cloud{
@@ -95,13 +95,15 @@ hr {
 }
 
 .skill-table{
+  height:240px;
   margin-bottom: 75px
 }
 
 .skill-image{
-  background-color: blue;
-  height: 100px;
-  width: 30%;
+  float: left;
+  height: 240px;
+  width: 240px;
+  margin-right: 30px;
 }
 
 .image-container{
@@ -113,7 +115,6 @@ hr {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 20px;
 }
 
 .technical-image{
@@ -121,5 +122,21 @@ hr {
 }
 
 .language-image{
-  width: 80%;
+  width: 75%;
+}
+
+.hobby-image{
+  width: 65%;
+}
+
+.hobby-bullets{
+  padding-left: 255px;
+}
+
+.hobby-bottom-margin{
+  height: 210px;
+}
+
+.contact-me{
+  margin:auto;
 }
