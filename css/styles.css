@@ -70,7 +70,7 @@ hr {
 
 .section{
   margin: auto;
-  width: 50%;
+  width: 65%;
 }
 
 .section-row{
@@ -92,4 +92,34 @@ hr {
 
 .profile-picture{
   width: 30%;
+}
+
+.skill-table{
+  margin-bottom: 75px
+}
+
+.skill-image{
+  background-color: blue;
+  height: 100px;
+  width: 30%;
+}
+
+.image-container{
+  float: left;
+  background-color: #eaf6f6;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.technical-image{
+  width: 80%;
+}
+
+.language-image{
+  width: 80%;
 }
