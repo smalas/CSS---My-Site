@@ -28,7 +28,7 @@ a{
 
 p{
   font-family: 'Montserrat', sans-serif;
-  line-height: 2rem;
+  line-height: 2;
 }
 
 td{
@@ -91,5 +91,5 @@ hr {
 }
 
 .profile-picture{
-  height: 200px;
+  width: 30%;
 }
