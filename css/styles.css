@@ -1,11 +1,9 @@
 body {
-  margin: 0;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
 
 h1 {
-  margin: 50px auto 0 auto;
   font-family: 'Sacramento', sans-serif;
   font-size: 5rem;
   color: #66bfbf;
@@ -45,15 +43,15 @@ hr {
 }
 
 /*General Attributes*/
-.bold{
+.bold {
   font-weight: bold;
 }
 
-.italic{
+.italic {
   font-style: italic;
 }
 
-.bullet{
+.bullet {
   padding-inline-start: 15px;
 }
 
@@ -64,11 +62,32 @@ hr {
 }
 
 /*Top Section*/
-.top {
-  text-align: center;
+.jumbotron {
   background-color: #eaf6f6;
-  position: relative;
-  padding-top: 3%;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.cloud-upper {
+  margin: 0 auto 5% 40%;
+  padding-top: 5%;
+}
+
+.cloud-lower{
+  position: absolute;
+  left: 30%;
+  top: 50%;
+}
+
+.mountain-lower{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  margin-left: auto;
 }
 
 .intro {
@@ -80,29 +99,22 @@ hr {
   font-weight: normal;
 }
 
-.data{
+.data {
   line-height: normal;
-}
-
-.top-cloud {
-  position: absolute;
-  right: 30%;
-  top: 5%;
-}
-
-.bottom-cloud {
-  position: absolute;
-  left: 20%;
-  bottom: 50%;
 }
 
 .profile-picture {
   width: 15rem;
+  margin-bottom: 5%;
+}
+
+.middle{
+  display: inline-block;
 }
 
 /*Table Elements*/
 .table-date {
-  width: 160px;
+  width: 162px;
   text-align: left;
   padding-bottom: 10px;
 }
@@ -113,12 +125,12 @@ hr {
   text-align: left;
 }
 
-.table-section{
+.table-section {
   width: 100%;
 }
 
 /* Work Experience*/
-.work-bullets{
+.work-bullets {
   line-height: 1.5;
 }
 
@@ -141,7 +153,7 @@ hr {
   margin-right: 30px;
 }
 
-.table-stars{
+.table-stars {
   display: inline-block;
   height: 198.423px;
 }
@@ -223,3 +235,66 @@ hr {
   border-radius: 1rem;
   text-decoration: none;
 }
+
+.chev-down{
+  max-width: 70%;
+  max-height: 70%;
+  padding-top: 20.5px;
+}
+
+.chev-down-container{
+  height:80px;
+}
+
+.jumbotron .scroll-down {
+  height: 80px;
+  width: 110px;
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  right: 5%;
+  background-color: #222222;
+}
+
+.navbar{
+  width: 110px;
+  position: absolute;
+  right: 5%;
+  background-color: #222222;
+  padding: 0 5px 0 5px;
+}
+
+.nav-item{
+  height:75px;
+  display: flex;
+  margin:auto;
+}
+
+.navbar-nav{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-hr{
+  margin: auto;
+  border-top: solid 2px white;
+  width: 20%;
+}
+
+.navbar a.navbar-item{
+  margin: auto;
+  color: #eaf6f6;
+  font-size: .9rem;
+}
+
+.navbar a:hover{
+  text-decoration: none;
+  color: #66bfbf;
+}
+
+.fixed .navbar{
+  position: fixed;
+  top: 20px;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus { background: #22A39F; color: #FFFFFF; }
