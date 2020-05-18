@@ -281,7 +281,7 @@ hr {
   width: 20%;
 }
 
-.navbar a.navbar-item{
+.navbar .navbar-item{
   margin: auto;
   color: #eaf6f6;
   font-size: .9rem;
@@ -294,7 +294,7 @@ hr {
 
 .fixed .navbar{
   position: fixed;
-  top: 20px;
+  top: 40px;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus { background: #22A39F; color: #FFFFFF; }

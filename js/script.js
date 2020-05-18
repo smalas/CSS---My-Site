@@ -1,27 +1,27 @@
 var stickyNavLen;
+var controller = new ScrollMagic.Controller();
 
-$(document).ready(function()
-{
+$(document).ready(function() {
   applyNavigation();
+  scroll();
 });
 
-function applyNavigation(){
+function applyNavigation() {
   applyStickyNav();
 }
 
-function applyStickyNav(){
+function applyStickyNav() {
   stickyNavLen = $('.scroll-down').offset().top + 20;
 
-  $(window).on('scroll', function(){
+  $(window).on('scroll', function() {
     stickyNav();
   })
 }
 
-function stickyNav(){
-  if($(window).scrollTop() > stickyNavLen){
+function stickyNav() {
+  if ($(window).scrollTop() > stickyNavLen) {
     $('body').addClass('fixed');
-  }
-  else{
+  } else {
     $('body').removeClass('fixed');
   }
 }
